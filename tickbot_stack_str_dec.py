@@ -1,6 +1,6 @@
 from ida_kernwin import ask_str
 """
-Function to decrypt stack strings found in a trick bot sample. Just put your at the start of the stack string
+Function to decrypt stack strings found in a trick bot sample. Just put your cursor at the start of the stack string
 """
 
 def acquire_stack_str(str_start_ea) -> [int]:
